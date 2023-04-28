@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+.mainHeaderContainer {
+    background-color: aqua;
+    height: 100px;
+    margin-top: 0px;
+}
+
+.menu {
+    background-color: rgb(255, 255, 255);
+    border: solid 1px black;
+    height: 4em;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+.menuContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
