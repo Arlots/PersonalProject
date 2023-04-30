@@ -35,3 +35,10 @@ Day 0: 4/28/2023 - Description of Project
 
 
 ++++++++
+
+Day 02: 4/30/2023 - Progress Update
+
+    Two days after starting this project, the landing page is at a point that has all desired functionality and a passable, albiet basic design. In the next work session, I will start working on a blog section sample page.
+
+
+++++++++

@@ -6,19 +6,14 @@ h1 {
     text-align: center;
     color: #8FA55A;
 }
+
 .mainHeaderContainer {
     background-color: #705AA5;
-    height: 100px;
-    margin-top: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    height: 116px;
 }
-
 .menu {
-    /*color: #8FA55A;*/
+    margin: 0px 16px;
 }
-
 .menuLink {
     color: black;
     text-decoration: none;
@@ -26,8 +21,7 @@ h1 {
 
 .menuContainer {
     display: flex;
-    justify-content: space-between;
-    width: 25%;
+    justify-content: flex-start;
 }
 
 .grammarContainer {
