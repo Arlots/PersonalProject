@@ -1,6 +1,11 @@
 body {
     margin: 0;
 }
+
+h1 {
+    text-align: center;
+    color: #8FA55A;
+}
 .mainHeaderContainer {
     background-color: #705AA5;
     height: 100px;
@@ -11,11 +16,11 @@ body {
 }
 
 .menu {
-    color: #8FA55A;
+    /*color: #8FA55A;*/
 }
 
 .menuLink {
-    color: #8FA55A;
+    color: black;
     text-decoration: none;
 }
 
@@ -29,18 +34,20 @@ body {
     display: flex;
     width: 90%;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 .cardContainer {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
+    justify-content: space-evenly;
     margin: 30px 15px;
     height: 150px;
     width: 150px;
     border: solid 2px #8FA55A;
     border-radius: 15px;
     text-align: center;
-    justify-content: space-evenly;
+ 
 }
 
 .cardHeader {
@@ -62,7 +69,7 @@ body {
     display: block;
     margin: auto;
     height: 2.5em;
-    width: 5em;
+    width: 95%;
 }
 
 .learnButton:hover {
