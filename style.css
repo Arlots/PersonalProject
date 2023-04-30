@@ -2,21 +2,77 @@ body {
     margin: 0;
 }
 .mainHeaderContainer {
-    background-color: aqua;
+    background-color: #705AA5;
     height: 100px;
     margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .menu {
-    background-color: rgb(255, 255, 255);
-    border: solid 1px black;
-    height: 4em;
-    margin-top: auto;
-    margin-bottom: 0px;
+    color: #8FA55A;
+}
+
+.menuLink {
+    color: #8FA55A;
+    text-decoration: none;
 }
 
 .menuContainer {
     display: flex;
     justify-content: space-between;
     width: 25%;
+}
+
+.grammarContainer {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction:column;
+    margin: 30px 15px;
+    height: 150px;
+    width: 150px;
+    border: solid 2px #8FA55A;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.cardHeader {
+    color: #705AA5;
+    font-weight: bold;
+}
+
+.grammarLevel {
+    color: #705AA5;
+    font-size: small;
+}
+
+.learnButton {
+    border-style: none;
+    background-color: #705AA5;
+    color: #8FA55A;
+    font-weight: 700;
+    font-size: 24px;
+    display: block;
+    margin: auto;
+    height: 2.5em;
+    width: 5em;
+}
+
+.learnButton:hover {
+    background-color: #8FA55A;
+    color: #705AA5;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.learnLink {
+    width: 80%;
+    margin: auto;
 }
