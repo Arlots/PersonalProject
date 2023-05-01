@@ -42,3 +42,7 @@ Day 02: 4/30/2023 - Progress Update
 
 
 ++++++++
+
+Day 03: 5/01/2023 - Progress Update
+
+    Today, I setup the base HTML code and layout for a sample blog page. 
