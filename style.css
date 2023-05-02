@@ -110,3 +110,22 @@ table {
     text-align: center;
     margin: auto;
 }
+
+.translationContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+#fillInBlankCheck {
+    margin-left: 40%;
+    margin-top: 1em;
+}
+
+/*Decided to leave as default styling for now*/
+/*.checkAnswerButton {
+    background-color: #8FA55A;
+    color: black;
+    border: 1px solid #705AA5;
+}*/
