@@ -77,3 +77,36 @@ h1 {
     width: 80%;
     margin: auto;
 }
+
+.blogFlowContainer {
+    width: 85%;
+    margin: auto;
+    background-color: white;
+}
+
+.sectionSideBorders {
+    border-left: dotted 2px #705AA5;
+    padding-left: 1em;
+    border-right: dotted 2px #705AA5;
+    padding-right: 1em;
+}
+
+.sectionBreak {
+    width: 75%;
+    border-bottom: dotted 2px #705AA5;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid #8FA55A;
+}
+
+table {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
