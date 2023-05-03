@@ -54,3 +54,9 @@ Day 04: 05/02/2023 - Progress Upate (submitted 5/3, they day after)
     I input all of the base information needed for a sample blog page, including explanations and practice problems. I got everything on the page formatted with basic style that doesn't look terribly, but works functionally. I learned how to make tables and some other input elements. I got everything ready on the blogg to start having javascript added to it for some more functionality.
 
 ++++++++
+
+Day 05: 05/03/2023 - Progress Update
+
+    I got my sample blog page finished and fully functioning. I do still think the design could use a bit of work, but the functionality is there which was my initial goal. I will work on maybe adding a footer next time before moving on to starting to build a sample reading page.
+
+++++++++
