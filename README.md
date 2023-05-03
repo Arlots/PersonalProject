@@ -46,3 +46,11 @@ Day 02: 4/30/2023 - Progress Update
 Day 03: 5/01/2023 - Progress Update
 
     Today, I setup the base HTML code and layout for a sample blog page. 
+
+++++++++
+
+Day 04: 05/02/2023 - Progress Upate (submitted 5/3, they day after)
+
+    I input all of the base information needed for a sample blog page, including explanations and practice problems. I got everything on the page formatted with basic style that doesn't look terribly, but works functionally. I learned how to make tables and some other input elements. I got everything ready on the blogg to start having javascript added to it for some more functionality.
+
+++++++++
