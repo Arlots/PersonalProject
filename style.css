@@ -128,6 +128,21 @@ table {
     margin-top: 1em;
 }
 
+.answerContainer1 {
+    display: block;
+    margin-top: 1em;
+}
+
+.answerContainer2 {
+    display: block;
+    margin-top: 1em;
+}
+
+.answerContainer3 {
+    display: block;
+    margin-top: 1em;
+}
+
 /*Decided to leave as default styling for now*/
 /*.checkAnswerButton {
     background-color: #8FA55A;

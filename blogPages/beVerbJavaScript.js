@@ -66,5 +66,79 @@ function checkFillInBlank() {
     } else if (fillInBlank3 != "are") {
         explanationContainer.appendChild(FibSpan3).appendChild(Fib3Wrong);
     };
-}
+};
 
+function checkTranslation1() {
+    const translation1 = document.getElementById("practiceProblem4").value;
+    const trans1Right = document.createTextNode("Well done! That's a natural-sounding sentence!");
+    const trans1Wrong = document.createTextNode("That's not quite what I would use. Here are the answers I was thinking of: 'I am scared' or 'I am afraid'. Be sure to check your spelling and punctuation!");
+    const trans1NoAns = document.createTextNode("You did not submit answer.");
+    const translationAnsContainer = document.getElementById("translationExplanation1");
+    const answerContainer1 = document.createElement("span");
+    answerContainer1.setAttribute("id", answerContainer1);
+    answerContainer1.classList.add("answerContainer1");
+
+    if (document.getElementsByClassName("answerContainer1").length > 0) {
+        const removeContainer1 = document.getElementById(answerContainer1);
+        removeContainer1.remove();
+    } 
+
+
+    if (translation1 === "I am scared." || translation1 === "I am afraid.") {
+        translationAnsContainer.appendChild(answerContainer1).appendChild(trans1Right);
+    } else if (translation1 == "") {
+        translationAnsContainer.appendChild(answerContainer1).appendChild(trans1NoAns);
+    } else if (translation1 != "I am scared." || "I am afraid.") {
+        translationAnsContainer.appendChild(answerContainer1).appendChild(trans1Wrong);
+    } 
+};
+
+function checkTranslation2() {
+    const translation2 = document.getElementById("practiceProblem5").value;
+    const trans2Right = document.createTextNode("Well done! That's a natural-sounding sentence!");
+    const trans2Wrong = document.createTextNode("That's not quite what I would use. Here is the answer I was thinking of: 'This is Gary. He is strict.'. Be sure to check your spelling and punctuation!");
+    const trans2NoAns = document.createTextNode("You did not submit answer.");
+    const translationAnsContainer = document.getElementById("translationExplanation2");
+    const answerContainer2 = document.createElement("span");
+    answerContainer2.setAttribute("id", answerContainer2);
+    answerContainer2.classList.add("answerContainer2");
+
+    if (document.getElementsByClassName("answerContainer2").length > 0) {
+        const removeContainer2 = document.getElementById(answerContainer2);
+        removeContainer2.remove();
+    } 
+
+
+    if (translation2 === "This is Gary. He is strict." ) {
+        translationAnsContainer.appendChild(answerContainer2).appendChild(trans2Right);
+    } else if (translation2 == "") {
+        translationAnsContainer.appendChild(answerContainer2).appendChild(trans2NoAns);
+    } else if (translation2 != "This is Gary. He is strict.") {
+        translationAnsContainer.appendChild(answerContainer2).appendChild(trans2Wrong);
+    } 
+};
+/*
+function checkTranslation3() {
+    const translation3 = document.getElementById("practiceProblem6").value;
+    const trans3Right = document.createTextNode("Well done! That's a natural-sounding sentence!");
+    const trans3Wrong = document.createTextNode("That's not quite what I would use. Here is the answer I was thinking of: 'They are cool.' Be sure to check your spelling and punctuation!");
+    const trans3NoAns = document.createTextNode("You did not submit answer.");
+    const translationAnsContainer = document.getElementById("translationExplanation3");
+    const answerContainer3 = document.createElement("span");
+    answerContainer3.setAttribute("id", answerContainer3);
+    answerContainer3.classList.add("answerContainer3");
+
+    if (document.getElementsByClassName("answerContainer3").length > 0) {
+        const removeContainer3 = document.getElementById(answerContainer3);
+        removeContainer3.remove();
+    } 
+
+
+    if (translation3 === "They are cool." ) {
+        translationAnsContainer.appendChild(answerContainer3).appendChild(trans3Right);
+    } else if (translation3 == "") {
+        translationAnsContainer.appendChild(answerContainer3).appendChild(trans3NoAns);
+    } else if (translation3 != "They are cool.") {
+        translationAnsContainer.appendChild(answerContainer3).appendChild(trans3Wrong);
+    } 
+};*/
