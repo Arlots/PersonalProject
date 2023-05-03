@@ -4,10 +4,7 @@
     - Output whether the answer is right or wrong.
 */
 
-function checkFillInBlank () {
-
-
-
+function checkFillInBlank() {
     const fillInBlank1 = document.getElementById("practiceProblem1").value;
     const fillInBlank2 = document.getElementById("practiceProblem2").value;
     const fillInBlank3 = document.getElementById("practiceProblem3").value;
@@ -22,8 +19,8 @@ function checkFillInBlank () {
     FibSpan2.setAttribute("id", FibSpan2);
     FibSpan3.setAttribute("id", FibSpan1);
     const Fib1Wrong = document.createTextNode("No. 1: Incorrect. 'I' must be used with the be-verb 'am', and it is always capitalized.");
-    const Fib2Wrong = document.createTextNode("No. 2: Incorrect. The verb form that must be used here is 'is'.");
-    const Fib3Wrong = document.createTextNode("No. 3: Incorrect. The verb form that must be used here is 'are'.");
+    const Fib2Wrong = document.createTextNode("No. 2: Incorrect. The verb form that must be used here is 'is'. It must be lower-case.");
+    const Fib3Wrong = document.createTextNode("No. 3: Incorrect. The verb form that must be used here is 'are'. It must be lower-case.");
     const Fib1Right = document.createTextNode("No. 1: Correct! Well done!");
     const Fib2Right = document.createTextNode("No. 2: Correct! Well done!");
     const Fib3Right = document.createTextNode("No. 3: Correct! Well done!");
@@ -33,18 +30,18 @@ function checkFillInBlank () {
 
     if (document.getElementsByClassName('explanationSpan').length > 0) {
        const removeSpan1 = document.getElementById(FibSpan1);
-       const removeSpan2 = document.getElementById(FibSpan2);
-       const removeSpan3 = document.getElementById(FibSpan3);
-
-       removeSpan1.remove();
+       removeSpan1.remove()
     };
-    /*
-        if (fillInBlank1 === "I" && fillInBlank2 === "is" && fillInBlank3 === "are") {
-            explanationContainer.appendChild(FibSpan1).appendChild(Fib1Right);
-            FibSpan1.appendChild(FibSpan2).appendChild(Fib2Right);
-            FibSpan2.appendChild(FibSpan3).appendChild(Fib3Right);
-        } 
-        */
+
+    if (document.getElementsByClassName('explanationSpan').length > 0) {
+        const removeSpan2 = document.getElementById(FibSpan2);
+        removeSpan2.remove()
+     };
+
+     if (document.getElementsByClassName('explanationSpan').length > 0) {
+        const removeSpan3 = document.getElementById(FibSpan3);
+        removeSpan3.remove();
+     };
 
     if (fillInBlank1 === "I") {
         explanationContainer.appendChild(FibSpan1).appendChild(Fib1Right);
@@ -53,4 +50,21 @@ function checkFillInBlank () {
     } else if (fillInBlank1 != "I") {
         explanationContainer.appendChild(FibSpan1).appendChild(Fib1Wrong);
     };
+
+    if (fillInBlank2 === "is") {
+        explanationContainer.appendChild(FibSpan2).appendChild(Fib2Right);
+    } else if (fillInBlank2 == "") {
+        explanationContainer.appendChild(FibSpan2).appendChild(FibNoAns2);
+    } else if (fillInBlank2 != "is") {
+        explanationContainer.appendChild(FibSpan2).appendChild(Fib2Wrong);
+    };
+
+    if (fillInBlank3 === "are") {
+        explanationContainer.appendChild(FibSpan3).appendChild(Fib3Right);
+    } else if (fillInBlank3 == "") {
+        explanationContainer.appendChild(FibSpan3).appendChild(FibNoAns3);
+    } else if (fillInBlank3 != "are") {
+        explanationContainer.appendChild(FibSpan3).appendChild(Fib3Wrong);
+    };
 }
+
