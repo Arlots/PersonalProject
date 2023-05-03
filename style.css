@@ -123,6 +123,11 @@ table {
     margin-top: 1em;
 }
 
+.explanationSpan {
+    display: block;
+    margin-top: 1em;
+}
+
 /*Decided to leave as default styling for now*/
 /*.checkAnswerButton {
     background-color: #8FA55A;
