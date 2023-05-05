@@ -4,7 +4,7 @@ body {
 
 h1 {
     text-align: center;
-    color: #8FA55A;
+    color: white;
 }
 
 .mainHeaderContainer {
@@ -49,15 +49,15 @@ h1 {
     font-weight: bold;
 }
 
-.grammarLevel {
+.grammarLevel, .readingLevel {
     color: #705AA5;
     font-size: small;
 }
 
-.learnButton {
+.learnButton, .readButton {
     border-style: none;
     background-color: #705AA5;
-    color: #8FA55A;
+    color: white;
     font-weight: 700;
     font-size: 24px;
     display: block;
@@ -73,7 +73,14 @@ h1 {
     cursor: pointer;
 }
 
-.learnLink {
+.readButton:hover {
+    background-color: #8FA55A;
+    color: #705AA5;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.learnLink, .readLink {
     width: 80%;
     margin: auto;
 }
