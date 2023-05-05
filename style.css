@@ -15,7 +15,7 @@ h1 {
     margin: 0px 16px;
 }
 .menuLink {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -68,14 +68,14 @@ h1 {
 
 .learnButton:hover {
     background-color: #8FA55A;
-    color: #705AA5;
+    color: white;
     transform: scale(1.2);
     cursor: pointer;
 }
 
 .readButton:hover {
     background-color: #8FA55A;
-    color: #705AA5;
+    color: white;
     transform: scale(1.2);
     cursor: pointer;
 }
