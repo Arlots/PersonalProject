@@ -60,3 +60,7 @@ Day 05: 05/03/2023 - Progress Update
     I got my sample blog page finished and fully functioning. I do still think the design could use a bit of work, but the functionality is there which was my initial goal. I will work on maybe adding a footer next time before moving on to starting to build a sample reading page.
 
 ++++++++
+
+Day 07: 05/05/2023 - Progress Update
+
+    I was unable to work on this project the previous day, but today I have made pretty good progress. I got all content uploaded, and now I just need to work on developing the JS to improve functionality of the reading exercises.
