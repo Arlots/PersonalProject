@@ -150,6 +150,30 @@ table {
     margin-top: 1em;
 }
 
+.readingCard {
+    border: 1px solid #8FA55A;
+    margin: auto;
+    margin-top: 2em;
+    width: 80%;
+    padding: 1em;
+    
+}
+
+#flashcardHolder {
+    width: 80%;
+    margin: auto;
+}
+
+#readingLine1 {
+    margin-top: 2em;
+}
+
+#audioPlayer {
+    display: block;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
 /*Decided to leave as default styling for now*/
 /*.checkAnswerButton {
     background-color: #8FA55A;

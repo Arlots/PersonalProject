@@ -51,13 +51,86 @@
             </div>
             
             <div class="sectionBreak"></div>
+            
+            <h2>Vocabulary FlashCards</h2>
 
-            <!--My work will continue from here after making the readings, comprehension questions, and recordings needed for the content
-            <div class="sectionSideBorders">
-
-                <div class="sectionBreak"></div>
+            <div id="flashcardHolder">
+                <iframe src="https://quizlet.com/799800338/learn/embed?i=37p4o4&x=1jj1" class="flashcardFrame" height="500" width="100%" style="border:0"></iframe>
             </div>
-            -->
+
+            <!--This div will have the class "readingCard" which will have a slightly different layout then the blog page sections-->
+            <div class="readingCard">
+
+                    <div class="readingPrompt">
+
+                        <form action="#" id="readingLevelSelect">
+                            <label for="readingLevelSelect">Select your level:</label>
+                            <select name="levelSelect" id="levelSelect">
+                                <option value="Level1">Level 1 (default)</option>
+                                <option value="Level2">Level 2</option>
+                            </select>
+                            <input type="submit" value="Reload">
+                        </form>
+
+
+                        <h2>Reading Practice</h2>
+
+                        <p id="readingLine1">This is Steven. Steven is forty-two. Steven is a doctor. Steven is smart. 
+                            Steven is clever. He is a husband. His wife is Sherry.
+                        </p>
+
+                        <p id="readingLine2">Sherry is thirty-nine. Sherry is a teacher. She is friendly. She is fun. 
+                        </p>
+
+                        <p id="readingLine3">Sherry and Steven are a couple. They are also parents. 
+                        </p>
+
+                        <p id="readingLine4">Their children are Samantha and Seth. Seth is a sixth grader. 
+                            Samantha is a junior high school student. They are energetic. 
+                        </p>
+
+                        <audio controls id="audioPlayer">
+                            <source src="./BeVerbBeginnerRecoring_Level1.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                        </audio>
+                    </div>
+
+                    <div class="sectionBreak"></div>
+
+                    <h2>Reading Comprehension Questions</h2>
+
+                    <p>1.	ステーブンの妻の名前はなんですか？</p>
+                    <input type="radio" id="readingComp1A" name="readingComp1_Answer" value="seth">
+                    <label for="seth">Seth</label>
+                    <input type="radio" id="readingComp1B" name="readingComp1_Answer" value="samantha">
+                    <label for="samantha">Samantha</label>
+                    <input type="radio" id="readingComp1C" name="readingComp1_Answer" value="sherry">
+                    <label for="sherry">Sherry</label>
+                    <input type="radio" id="readingComp1D" name="readingComp1_Answer" value="steven">
+                    <label for="steven">Steven</label>
+
+                    <p>2.	Sethは何年生ですか？</p>
+                    <input type="radio" id="readingComp2A" name="readingComp2_Answer" value="fifth">
+                    <label for="fifth">5年生</label>
+                    <input type="radio" id="readingComp2B" name="readingComp2_Answer" value="sixth">
+                    <label for="sixth">6年生</label>
+                    <input type="radio" id="readingComp2C" name="readingComp2_Answer" value="second">
+                    <label for="second">2年生</label>
+                    <input type="radio" id="readingComp2D" name="readingComp2_Answer" value="fourth">
+                    <label for="fourth">4年生</label>
+
+                    <p>3.	Sherryの職業はなんですか？</p>
+                    <input type="radio" id="readingComp3A" name="readingComp3_Answer" value="doctor">
+                    <label for="doctor">doctor</label>
+                    <input type="radio" id="readingComp3B" name="readingComp3_Answer" value="teacher">
+                    <label for="teacher">teacher</label>
+                    <input type="radio" id="readingComp3C" name="readingComp3_Answer" value="baker">
+                    <label for="baker">baker</label>
+                    <input type="radio" id="readingComp3D" name="readingComp3_Answer" value="housewife">
+                    <label for="housewife">housewife</label>
+
+            </div>
+            
 
         </div>
     </body>
