@@ -18,6 +18,28 @@ function readingSwap(){
    const level2Line3 = "Sherry and Steven are a couple. They are also parents. "
    const level2Line4 = "Their children are Samantha and Seth. Seth is a sixth grader. Samantha is a junior high school student. They are rowdy. "
 
+   const readingQuestion1 = document.getElementById("readingQuestion1");
+   const readingQuestion2 = document.getElementById("readingQuestion2");
+   const readingQuestion3 = document.getElementById("readingQuestion3");
+
+   const questionLevel1_1 = "1.	ステーブンの妻の名前はなんですか？";
+   const readingComp1A = document.getElementById("readingComp1A");
+   const readingComp1B = document.getElementById("readingComp1B");
+   const readingComp1C = document.getElementById("readingComp1C");
+   const readingComp1D = document.getElementById("readingComp1D");
+
+   const answerLabel1A = document.getElementById("answerLabel1A");
+   const answerLabel1B = document.getElementById("answerLabel1B");
+   const answerLabel1C = document.getElementById("answerLabel1C");
+   const answerLabel1D = document.getElementById("answerLabel1D");
+
+   const questionLevel1_1Choices = ["a. Seth", "b. Samantha", "c. Sherry", "d. Steve"];
+   
+   const questionLevel1_2 = "2.	Sethは何年生ですか？";
+
+
+   const questionLevel1_3 = "3.	Sherryの職業はなんですか？";
+
 
    switch (selectedLevel.value) {
         case "Level1":
@@ -27,6 +49,16 @@ function readingSwap(){
             readingLine3.innerText = level1Line3;
             readingLine4.innerText = level1Line4;
             readingAudio.setAttribute("src", "./BeVerbBeginnerRecoring_Level1.wav")
+
+            readingQuestion1.innerText = questionLevel1_1;
+            readingComp1A.setAttribute("value", "seth");
+            answerLabel1A.innerText = questionLevel1_1Choices[0];
+            readingComp1B.setAttribute("value", "samantha");
+            answerLabel1B.innerText = questionLevel1_1Choices[1];
+            readingComp1C.setAttribute("value", "sherry");
+            answerLabel1C.innerText = questionLevel1_1Choices[2];
+            readingComp1D.setAttribute("value", "steve");
+            answerLabel1D.innerText = questionLevel1_1Choices[3];
             break;
 
         case "Level2":
