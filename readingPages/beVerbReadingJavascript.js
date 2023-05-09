@@ -248,3 +248,6 @@ function loadDefaultReading() {
 
 loadDefaultReading();
 
+function readingCheck(){
+    
+}

@@ -174,6 +174,11 @@ table {
     margin-bottom: 2em;
 }
 
+#readingCheck {
+    display: block;
+    margin: auto;
+    margin-top: 16px;
+}
 /*Decided to leave as default styling for now*/
 /*.checkAnswerButton {
     background-color: #8FA55A;
