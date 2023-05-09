@@ -249,5 +249,88 @@ function loadDefaultReading() {
 loadDefaultReading();
 
 function readingCheck(){
-    
+    const readingComp1_Answer = document.querySelector('input[name="readingComp1_Answer"]:checked').value;
+    const readingComp2_Answer = document.querySelector('input[name="readingComp2_Answer"]:checked').value;
+    const readingComp3_Answer = document.querySelector('input[name="readingComp3_Answer"]:checked').value;
+
+    const answerNoAnswer = "Please select an answer.";
+    const answerCorrect = "Correct! Well done!";
+    const answerIncorrect = "Incorrect! Try again!";
+
+    if (document.getElementById("levelSelect").value == "Level1") {
+
+        if (readingComp1_Answer == null) {
+            document.getElementById("readingQuestion1Tag").innerText = answerNoAnswer;
+            document.getElementById("readingQuestion1Tag").style.backgroundColor = "red";
+        } else if (readingComp1_Answer == "sherry") {
+            document.getElementById("readingQuestion1Tag").innerText = answerCorrect;
+            document.getElementById("readingQuestion1Tag").style.backgroundColor = "green";
+
+        } else {
+            document.getElementById("readingQuestion1Tag").innerText = answerIncorrect;
+            document.getElementById("readingQuestion1Tag").style.backgroundColor = "red";
+        }
+
+        if (readingComp2_Answer == null) {
+            document.getElementById("readingQuestion2Tag").innerText = answerNoAnswer;
+            document.getElementById("readingQuestion2Tag").style.backgroundColor = "red";
+        } else if (readingComp2_Answer == "sixth") {
+            document.getElementById("readingQuestion2Tag").innerText = answerCorrect;
+            document.getElementById("readingQuestion2Tag").style.backgroundColor = "green";
+
+        } else {
+            document.getElementById("readingQuestion2Tag").innerText = answerIncorrect;
+            document.getElementById("readingQuestion2Tag").style.backgroundColor = "red";
+        }
+
+        if (readingComp3_Answer == null) {
+            document.getElementById("readingQuestion3Tag").innerText = answerNoAnswer;
+            document.getElementById("readingQuestion3Tag").style.backgroundColor = "red";
+        } else if (readingComp3_Answer == "teacher") {
+            document.getElementById("readingQuestion3Tag").innerText = answerCorrect;
+            document.getElementById("readingQuestion3Tag").style.backgroundColor = "green";
+
+        } else {
+            document.getElementById("readingQuestion3Tag").innerText = answerIncorrect;
+            document.getElementById("readingQuestion3Tag").style.backgroundColor = "red";
+        }
+
+    } else if (document.getElementById("levelSelect").value == "Level2") {
+        console.log(readingComp1_Answer);
+
+        if (readingComp1_Answer == null) {
+            document.getElementById("readingQuestion1Tag").innerText = answerNoAnswer;
+            document.getElementById("readingQuestion1Tag").style.backgroundColor = "red";
+        } else if (readingComp1_Answer == "cardiologist") {
+            document.getElementById("readingQuestion1Tag").innerText = answerCorrect;
+            document.getElementById("readingQuestion1Tag").style.backgroundColor = "green";
+
+        } else {
+            document.getElementById("readingQuestion1Tag").innerText = answerIncorrect;
+            document.getElementById("readingQuestion1Tag").style.backgroundColor = "red";
+        }
+
+        if (readingComp2_Answer == null) {
+            document.getElementById("readingQuestion2Tag").innerText = answerNoAnswer;
+            document.getElementById("readingQuestion2Tag").style.backgroundColor = "red";
+        } else if (readingComp2_Answer == "sherry") {
+            document.getElementById("readingQuestion2Tag").innerText = answerCorrect;
+            document.getElementById("readingQuestion2Tag").style.backgroundColor = "green";
+
+        } else {
+            document.getElementById("readingQuestion2Tag").innerText = answerIncorrect;
+            document.getElementById("readingQuestion2Tag").style.backgroundColor = "red";
+        }
+
+        if (readingComp3_Answer == null) {
+            document.getElementById("readingQuestion3Tag").innerText = answerNoAnswer;
+            document.getElementById("readingQuestion3Tag").style.backgroundColor = "red";
+        } else if (readingComp3_Answer == "42_39") {
+            document.getElementById("readingQuestion3Tag").innerText = answerCorrect;
+            document.getElementById("readingQuestion3Tag").style.backgroundColor = "green";
+        } else {
+            document.getElementById("readingQuestion3Tag").innerText = answerIncorrect;
+            document.getElementById("readingQuestion3Tag").style.backgroundColor = "red";
+        }
+    }
 }
