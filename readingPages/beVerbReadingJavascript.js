@@ -150,6 +150,23 @@ function readingSwap(){
             break;
    }
 
+
+
+   const elements = document.getElementsByTagName("input");
+
+   for (let i = 0; i < elements.length; i++) {
+   if (elements[i].type == "radio") {
+       elements[i].checked = false;
+        }
+    }
+
+    const removeText1 = document.getElementById("readingQuestion1Tag");
+   const removeText2 = document.getElementById("readingQuestion2Tag");
+   const removeText3 = document.getElementById("readingQuestion3Tag");
+
+   removeText1.innerText = "";
+   removeText2.innerText = "";
+   removeText3.innerText = "";
 };
 
 function loadDefaultReading() {
