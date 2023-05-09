@@ -30,8 +30,9 @@ Day 0: 4/28/2023 - Description of Project
        - The reading exercise should be about 100~200 words long.
        - There should be a "level select" menu, which adjusts the vocabulary of the writing, depending on which is picked.
        - There should be a playable audio recording of the exericse.
-       - There should be comprehension questions .
-       - Keywords should have a pop-up box when hovered over them to describe the words meaning or nuance.
+       - There should be comprehension questions
+
+       - Keywords should have a pop-up box when hovered over them to describe the words meaning or nuance. - REMOVED IDEA DUE TO COMPLEXITY
 
 
 ++++++++
@@ -64,3 +65,9 @@ Day 05: 05/03/2023 - Progress Update
 Day 07: 05/05/2023 - Progress Update
 
     I was unable to work on this project the previous day, but today I have made pretty good progress. I got all content uploaded, and now I just need to work on developing the JS to improve functionality of the reading exercises.
+
+++++++++
+
+Day 10 05/09/2023 - Progress Update
+
+    I haven't updated the README in a while, but I have continued to work on this project a bit each day. I have added all JS functionality to the reading practice that I imagine possible for me at the moment. Originally, I wanted to add a pop-up menu for each word on the page, but hard coding those seems like a rabbit hole I don't want to go down at the moment. I may revist the idea once I get more coding knowledge and experience under my belt.
