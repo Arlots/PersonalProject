@@ -36,10 +36,30 @@ function readingSwap(){
    const questionLevel1_1Choices = ["a. Seth", "b. Samantha", "c. Sherry", "d. Steve"];
    
    const questionLevel1_2 = "2.	Sethは何年生ですか？";
+   const readingComp2A = document.getElementById("readingComp2A");
+   const readingComp2B = document.getElementById("readingComp2B");
+   const readingComp2C = document.getElementById("readingComp2C");
+   const readingComp2D = document.getElementById("readingComp2D");
 
+   const answerLabel2A = document.getElementById("answerLabel2A");
+   const answerLabel2B = document.getElementById("answerLabel2B");
+   const answerLabel2C = document.getElementById("answerLabel2C");
+   const answerLabel2D = document.getElementById("answerLabel2D");
+
+   const questionLevel1_2Choices = ["a. 5年生", "b. 6年生", "c. 2年生", "d. 4年生"];
 
    const questionLevel1_3 = "3.	Sherryの職業はなんですか？";
+   const readingComp3A = document.getElementById("readingComp3A");
+   const readingComp3B = document.getElementById("readingComp3B");
+   const readingComp3C = document.getElementById("readingComp3C");
+   const readingComp3D = document.getElementById("readingComp3D");
 
+   const answerLabel3A = document.getElementById("answerLabel3A");
+   const answerLabel3B = document.getElementById("answerLabel3B");
+   const answerLabel3C = document.getElementById("answerLabel3C");
+   const answerLabel3D = document.getElementById("answerLabel3D");
+
+   const questionLevel1_3Choices = ["a. doctor", "b. teacher", "c. bakery", "d. housewife"];
 
    switch (selectedLevel.value) {
         case "Level1":
@@ -59,6 +79,26 @@ function readingSwap(){
             answerLabel1C.innerText = questionLevel1_1Choices[2];
             readingComp1D.setAttribute("value", "steve");
             answerLabel1D.innerText = questionLevel1_1Choices[3];
+
+            readingQuestion2.innerText = questionLevel1_2;
+            readingComp2A.setAttribute("value", "fifth");
+            answerLabel2A.innerText = questionLevel1_2Choices[0];
+            readingComp2B.setAttribute("value", "sixth");
+            answerLabel2B.innerText = questionLevel1_2Choices[1];
+            readingComp2C.setAttribute("value", "second");
+            answerLabel2C.innerText = questionLevel1_2Choices[2];
+            readingComp2D.setAttribute("value", "fourth");
+            answerLabel2D.innerText = questionLevel1_2Choices[3];
+
+            readingQuestion3.innerText = questionLevel1_3;
+            readingComp3A.setAttribute("value", "doctor");
+            answerLabel3A.innerText = questionLevel1_3Choices[0];
+            readingComp3B.setAttribute("value", "teacher");
+            answerLabel3B.innerText = questionLevel1_3Choices[1];
+            readingComp3C.setAttribute("value", "bakery");
+            answerLabel3C.innerText = questionLevel1_3Choices[2];
+            readingComp3D.setAttribute("value", "housewife");
+            answerLabel3D.innerText = questionLevel1_3Choices[3];
             break;
 
         case "Level2":
